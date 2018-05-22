@@ -136,5 +136,5 @@ youdao.download(token,'https://note.youdao.com/yws/open/resource/download/20114/
 # 说明
 目前是第一版，还没有进行测试和优化，应该会有好多问题，欢迎各位拍砖。
 
-# LICENSE 
+# LICENSE
 MIT
