@@ -1,0 +1,28 @@
+{
+  "name": "ydnote",
+  "version": "1.0.0",
+  "description": "有道云nodejs sdk",
+  "main": "YNote.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrunlee/youdaonote-api.git"
+  },
+  "keywords": [
+    "youdao",
+    "note",
+    "sdk",
+    "nodejs"
+  ],
+  "author": "chrunlee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrunlee/youdaonote-api/issues"
+  },
+  "homepage": "https://github.com/chrunlee/youdaonote-api#readme",
+  "dependencies": {
+    "superagent": "^3.8.3"
+  }
+}
