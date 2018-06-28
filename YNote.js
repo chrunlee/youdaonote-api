@@ -158,9 +158,10 @@ YNote.prototype = {
 	//根据request 获得token
 	,getToken : function( code ){
 		var that = this,config = that.config;
-		if(config._access_token){
-			return config._access_token;
-		}
+		// 不应该缓存 access_token， 导致无法多个不同账号授权，而且没有返回 Promise 对象导致 getToken.then() 报错
+		// if(config._access_token){
+		// 	return config._access_token;
+		// }
 		if(!code && !config._code ){
 			throw new Error('缺少配置项 code');
 		}
